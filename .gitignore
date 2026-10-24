@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases & Docker storage
+*.db
+*.sqlite3
+postgres_data/
+
+# Environment / Secret overrides
+.env
+.env.local
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
